@@ -1,4 +1,4 @@
-body, h2, h3, p, span{
+body, h2, h3, h4, p, span{
     margin: 0;
     padding: 0;
     font-family: 'Karla', sans-serif;
@@ -6,16 +6,27 @@ body, h2, h3, p, span{
 body {
     background-color: #e6eff6;
 }
-
 .container {
-    width: 635px;
-    height: 474px;
+    max-width: 635px;
+    max-height: 474px;
+    margin: 160px auto;
+
+}
+@media (max-width: 375px){
+    .container{
+        max-width: 100%;
+        max-height: 100%;
+        padding: 20px;
+        margin: 160px auto;
+    }
 }
 .join {
     padding: 40px 40px;
     max-width: 635px;
     max-height: 210px;
     background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 .join h2{
     margin-bottom: 30px;
@@ -39,6 +50,59 @@ body {
     height: 210px;
     background-color: #2bb3b1;
     display: inline-block;
+    line-height: 1.4em;
+    border-bottom-left-radius: 8px;
+}
+.subs h3 {
+    color: white;
+    margin: 30px 0 17px 40px; 
+    font-weight: normal;
+}
+.subs span {
+    margin: 27px 0 0 40px;
+    margin: 0 40px;
+    color: white;
+    font-size: 2em;
+    font-weight: normal;
+    
+}
+.subs p {
+    color: white;
+    margin: 16px 0 0 40px;
+    font-weight: normal;
+    font-size: 0.875em;
+    
+}
+.subs > .per {
+    color: #6cd8d8;
+    font-size: 0.75em;
+    font-weight: normal;
+    margin: 0 120px 0 0;
+    padding: 0;
+    position: relative;
+    float: right;
+}
+@media (max-width: 375px){
+    .subs{
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 0;
+    }
+}
+.sign input{
+    width: 240px;
+    height: 38px;
+    margin: 20px 40px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: #bfdf32;
+    color: white;
+}
+@media (max-width: 375px){
+    .sign input {
+        max-width: 240px;
+        
+    }
 }
 .why{
     width: 320px;
@@ -46,6 +110,25 @@ body {
     background-color: #4abebd;
     position: relative;
     float: right;
-    
-    
+    border-bottom-right-radius: 8px;
+}
+.why h3 {
+    color: white;
+    font-weight: normal;
+    margin: 30px 0 0 40px
+}
+.why p {
+    color: #80f0f0;
+    font-weight: normal;
+    font-size: 0.875em;
+    text-align: left;
+    justify-self: center;
+    margin: 20px 40px;
+}
+@media (max-width: 375px){
+    .why{
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 8px;
+    }
 }
