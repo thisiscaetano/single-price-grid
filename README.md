@@ -1,6 +1,6 @@
 ## Front-end
 
-Projeto desenvolvido com um modelo do site front-end Mentor (http://www.frontendmentor.com).
+Projeto desenvolvido com um modelo do site front-end Mentor (http://www.frontendmentor.io).
 
 Projeto foi feito com a intenção de praticar grid, nao foi usado bootstrap.
 
