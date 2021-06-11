@@ -6,6 +6,7 @@ body, h2, h3, p, span{
 body {
     background-color: #e6eff6;
 }
+
 .container {
     width: 635px;
     height: 474px;
@@ -13,18 +14,38 @@ body {
 .join {
     padding: 40px 40px;
     max-width: 635px;
-    height: 210px;
+    max-height: 210px;
     background-color: white;
 }
 .join h2{
     margin-bottom: 30px;
     color: #30b6b7;
+    font-size: 1.8;
 }
 .join > .day {
     margin-bottom: 18px;
     color: #bfdf32;
-    font-weight: bold;   
+    font-weight: bold;
+    font-size: 1.125em;
 }
 .join p {
     color: #b6bbc1;
+    font-size: 1.125em;
+    line-height: 1.4em;
+    margin-bottom: 45px;
+}
+.subs {
+    width: 315px;
+    height: 210px;
+    background-color: #2bb3b1;
+    display: inline-block;
+}
+.why{
+    width: 320px;
+    height: 210px;
+    background-color: #4abebd;
+    position: relative;
+    float: right;
+    
+    
 }
